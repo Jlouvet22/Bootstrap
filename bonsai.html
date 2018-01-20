@@ -6,34 +6,194 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Bonsai challenge</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-  <!-- DEBUT DU MENU -->
-  <div class="container-fluid">
-    <nav class="navbar navbar-default">
+  <!-- DEBUT DU MENU & NAVBAR -->
+  <section id="menu">
+    <nav class="navbar">
       <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo-icon-white.png" class="img-responsive">
-          </a>
-          <p>Bonsai</p>
-        </div>
+        <ul class="nav navbar-nav navbar-left">
+          <li><img class="img-responsive" src="img/logo-icon-white.png"/></li>
+          <li><p><b>BONSAI</b></p></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <li><a href="#">LOGIN</a></li>
+          <li><a href="#">SIGN UP</a></li>
+        </ul>
       </div>
     </nav>
-  </div>
-  <!-- FIN DU MENU -->
-  <!-- Première section -->
-  <div class="row">
-    <div class="col-md-4">
-      <img src="img/payments-calendar-icon.svg" alt="" class="img-responsive">  </div>
-      <div class="col-md-4">
-        <img src="img/payments-mail-icon.svg" alt="" class="img-responsive">  </div>
-        <div class="col-md-4">
-          <img src="img/payments-methods-icon.svg" alt="" class="img-responsive">  </div>
-        </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-      </body>
-      </html>
+    <div class="row free_account text_menu block-center">
+      <div class="block-center col-xs-12">
+        <h1 class="text-center">Simple & Beautiful Payments for Freelancers</h1>
+      </div>
+      <div class="col-md-12">
+        <p class="text-center">Get paid on time, every time</p>
+      </div>
+      <div class="col-md-3 col-md-offset-5 text-center">
+        <button type="button" class="btn block-center btn_menu">CREATE A FREE ACCOUNT</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIN DU MENU -->
+
+  <!-- section qbc -->
+
+  <section id="qbc">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="img/payments-calendar-icon.svg" class="img-responsive center-block imgq">
+              <h2 class="text-center">Quick</h2>
+              <p class="text-center">to create, send, and pay invoices</p>
+            </div>
+            <div class="col-md-4 imgbblock">
+              <img src="img/payments-mail-icon.svg" class="img-responsive center-block imgb">
+              <h2 class="text-center">Beautiful</h2>
+              <p class="text-center">process for the freelancer and client</p>
+            </div>
+            <div class="col-md-4">
+              <img src="img/payments-methods-icon.svg" class="img-responsive center-block imgs">
+              <h2 class="text-center">Secure</h2>
+              <p class="text-center">payments and quick disbursement</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section DOLLAR -->
+
+  <section id="price">
+    <div class="container-fluid">
+      <div class="dollar">
+        <h3 class="titre-dollar">SIMPLE PRICING:<br> PAY WHEN YOU GET PAID</h3>
+      </div>
+      <div class="row">
+        <p class="col-md-1 col-md-offset-5 text-center one-dollar">$1</p>
+        <div class="col-md-5 text-left"><strong>PER PAID INVOICE</strong>
+          <p>+ 2,9% & 30¢ transaction fee</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Bordereau credit card -->
+
+  <div class="row">
+    <div class="bordereau text-center">
+      <p>Credit cards supported now. ACH coming soon!</p>
+    </div>
+  </div>
+
+  <!--section image et texte -->
+  
+  <section id="img-text">
+    <div class="row img-center">
+      <div class="col-md-6 col-xs-12 fd-img1">
+        <img src="img/welcome-invoices-graphic-1.png" class="block-center img-responsive img-border">
+      </div>
+      <div class="col-md-6 col-xs-12 block-center text-left">
+        <h3 class="text-center">Integrates deeply with Bonsai Contracts</h3>
+        <p>Increase your payments rate with Bonsai<br>
+          Contracts : free bulletproof work contracts that are easy to create & e-sign. <br>
+          Once the contract is signed, generate a payment schedule with one click.
+          <i>Contracts are optionnal but recommended</i></p>
+        </div>
+      </div>
+
+      <div class="row img-center1">
+        <div class="col-md-6 col-xs-12 text-left">
+          <h3 class="text-center">Send & get paid with beautiful invoices</h3>
+          <p>Create invoices and request payment with the click of a button. Customize them to your brand, then send via email or URL.</p>
+          <p>Clients can pay quickly and securely via cfedit card.<i>ACH is coming soon.</i></p>
+        </div>
+        <div class="col-md-6 col-xs-12 fd-img2">
+          <img src="img/welcome-invoices-graphic-2.png" class="img-responsive block-center img-border">
+        </div>
+      </div>
+
+      <div class="row img-center">
+        <div class="col-md-6 col-xs-12 fd-img1">
+          <img src="img/welcome-invoices-graphic-3.png" class="img-responsive block-center img-border">
+        </div>
+        <div class="col-md-6 col-xs-12 text-left">
+          <h3 class="text-center">Get paid on time with SmartPay</h3>
+          <p>Escrow-like deposits, smart reminders, soft collections and much more background magic ensure you're paid on time.</p>
+          <p>Focus on the work you love, not on chasing money.<i>Currently in private beta.</i></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- dernière section  -->
+
+    <section>
+      <div class="">
+        <h4>Ready to freelance like a pro?<br>Sign up here & get 5 free invoices.</h4>
+        <button type="button" title="Click !">Create an account</button>
+      </div>
+    </section>
+
+    <!-- Footer-->
+
+    <footer id="Footer" class="container-fluid">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="col-md-4">
+            <h6>Products</h6>
+            <ul>
+              <li>CONTRACTS</li>
+              <li>PAYMENTS</li>
+              <li>RATES</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6>Company</h6>
+            <ul>
+              <li>ABOUT</li>
+              <li>BLOG</li>
+              <li>FAQ</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6>Contact</h6>
+            <ul>
+              <li>760 Market St., 5th Floor</li>
+              <li>San Francisco, CA 94102</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="col-md-8">
+            <p>
+              &copy;2016 Bonsai Inc. Bonsai is not a law firm, does not provide legal services or advice, and does not provid or participate in legal representation. <strong>Legal</strong> - <strong>Credits</strong>
+            </p>
+          </div>
+          <div class="col-md-4 logofooter">
+            <img src="img/badge_blue.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FIN -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  </html>
